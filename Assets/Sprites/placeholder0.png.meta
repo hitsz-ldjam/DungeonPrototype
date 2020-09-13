@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: fa0f475617bcaf64ea97fc37665a8404
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6975304462654533744
+    second: health
+  - first:
+      213: 6019948310407425486
+    second: armor
+  - first:
+      213: -8315794802385765532
+    second: speed_up
+  - first:
+      213: -265467235500049964
+    second: speed_down
+  - first:
+      213: 5369617899658882288
+    second: placeholder0_4
+  - first:
+      213: -4307484586077605159
+    second: vulnerable
+  - first:
+      213: 7357792106953894030
+    second: atkdmg_up
+  - first:
+      213: 8992583356028590272
+    second: placeholder0_7
+  - first:
+      213: -363734179249955659
+    second: placeholder0_8
+  - first:
+      213: 2275068291946593110
+    second: light
+  - first:
+      213: 8129392702202595273
+    second: placeholder0_10
+  - first:
+      213: -6960043194489802143
+    second: placeholder0_11
+  - first:
+      213: -3592270601182997350
+    second: ice
+  - first:
+      213: -7846581597100228225
+    second: flame
+  - first:
+      213: -3793475624801390678
+    second: gun_light
+  - first:
+      213: -7569762994583908250
+    second: placeholder0_15
+  - first:
+      213: 5199212082544208701
+    second: gun_dark
+  - first:
+      213: 7071238806000072430
+    second: gun_ice
+  - first:
+      213: -8770320930158711920
+    second: gun_flame
+  - first:
+      213: -2018699958684251815
+    second: dark
+  - first:
+      213: 4626196121120720452
+    second: placeholder0_20
+  - first:
+      213: 5201427341285055538
+    second: placeholder0_21
+  - first:
+      213: -3293725301539536053
+    second: placeholder0_22
+  - first:
+      213: 8054147115073793151
+    second: placeholder0_23
+  - first:
+      213: 4134898747565823352
+    second: placeholder0_24
+  - first:
+      213: 4628187853908809895
+    second: placeholder0_25
+  - first:
+      213: -5708985657079287273
+    second: placeholder0_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: health
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 139
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f87474c8db23f90800000000000000
+      internalID: -6975304462654533744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armor
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 139
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd2c00e7172b8350800000000000000
+      internalID: 6019948310407425486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed_up
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 143
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bb1caafac589c80800000000000000
+      internalID: -8315794802385765532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed_down
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 144
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9b380b4fed05cf0800000000000000
+      internalID: -265467235500049964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vulnerable
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 142
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2bf5b479db834c0800000000000000
+      internalID: -4307484586077605159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atkdmg_up
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 143
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88e82220f02c1660800000000000000
+      internalID: 7357792106953894030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 37
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b3b35ce8aa29f10800000000000000
+      internalID: 2275068291946593110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 47
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94986fbbe0b52ec0800000000000000
+      internalID: -3592270601182997350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flame
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 56
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7149b34c975b1390800000000000000
+      internalID: -7846581597100228225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun_light
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 39
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf2c97940eda5bc0800000000000000
+      internalID: -3793475624801390678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun_dark
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 43
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b67fba7df472840800000000000000
+      internalID: 5199212082544208701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun_ice
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 43
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee67791aa36122260800000000000000
+      internalID: 7071238806000072430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun_flame
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 45
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b67b7c49f894680800000000000000
+      internalID: -8770320930158711920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 38
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959878645132cf3e0800000000000000
+      internalID: -2018699958684251815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7cdce0a22c8f5e049af3f6a46d55fc2d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

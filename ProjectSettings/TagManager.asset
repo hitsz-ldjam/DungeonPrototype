@@ -3,11 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
-  - Bullet
-  - Bound
-  - Wall
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -42,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2137111693
+    locked: 0
+  - name: Mob
+    uniqueID: 3353592969
+    locked: 0
+  - name: Bullet
+    uniqueID: 3965539223
+    locked: 0
+  - name: SSUI
+    uniqueID: 751157261
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
