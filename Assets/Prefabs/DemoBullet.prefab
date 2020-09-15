@@ -68,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -329428073
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -92,11 +92,13 @@ GameObject:
   - component: {fileID: 1507013443789131544}
   - component: {fileID: 1507013443789131546}
   - component: {fileID: 1507013443789131547}
-  - component: {fileID: 5942611811200685233}
+  - component: {fileID: 5134280723320748848}
   - component: {fileID: 8540928509752916980}
+  - component: {fileID: 5942611811200685233}
+  - component: {fileID: 3905299047743652968}
   m_Layer: 0
   m_Name: DemoBullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +155,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.15
---- !u!114 &5942611811200685233
+--- !u!114 &5134280723320748848
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,9 +164,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1507013443789131545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fee2355729ea024428ab4cd366272c0b, type: 3}
+  m_Script: {fileID: 11500000, guid: c13a4687b231d104096212b263e57101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  desc: {fileID: 11400000, guid: ac871e15587ff014292572f2bcb5693e, type: 2}
 --- !u!114 &8540928509752916980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,3 +180,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7c7b746d82a824891735bbce0a4c55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5942611811200685233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507013443789131545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fee2355729ea024428ab4cd366272c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletHit: {fileID: 3905299047743652968}
+  bulletSprite: {fileID: 1507013443705562367}
+--- !u!114 &3905299047743652968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507013443789131545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28fcfc3fb9bcade42a8ea5b772fbb258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallMask:
+    serializedVersion: 2
+    m_Bits: 256

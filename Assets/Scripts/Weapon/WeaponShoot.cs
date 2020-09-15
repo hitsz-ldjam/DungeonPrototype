@@ -12,11 +12,10 @@ namespace ThisGame.Weapon {
         private void Update() {
             // todo: get input in same update & distribute event
             if(Input.GetMouseButtonDown(0)) {
-                var bullet = Instantiate(bulletPrefab, bulletGenPoint.position, bulletGenPoint.rotation);
-                bullet.GetComponent<BulletMove>().OnShoot(weaponRotate.Forward, 10);
-
-                var currWeapon = weaponChange.GetCurrWeapon;
-                bullet.transform.GetChild(0).GetComponent<SpriteRenderer>().color = currWeapon.bulletTint;
+                BulletUtils.ShootBullet(bulletPrefab,
+                                        bulletGenPoint,
+                                        weaponRotate.Forward,
+                                        weaponChange.GetCurrWeapon);
             }
         }
 

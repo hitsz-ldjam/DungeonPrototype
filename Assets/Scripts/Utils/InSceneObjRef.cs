@@ -6,12 +6,17 @@ namespace ThisGame.Utils {
         [SerializeField] private Transform player;
         [SerializeField] private Camera mainCamera;
 
+        // todo: proxy through EnemyManager
+        [SerializeField] private Transform closestEnemy;
+
         public Transform Player => player;
         public Camera MainCamera => mainCamera;
+        public Transform ClosestEnemy => closestEnemy;
 
         private void SuppressUnityWarnings() {
             player = null;
             mainCamera = null;
+            closestEnemy = null;
         }
     }
 }

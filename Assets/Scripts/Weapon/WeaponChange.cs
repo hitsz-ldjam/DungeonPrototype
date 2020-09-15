@@ -4,10 +4,14 @@ using ThisGame.Utils;
 using UnityEngine;
 
 namespace ThisGame.Weapon {
+    // todo: add proxy on player
     public class WeaponChange : MonoBehaviour {
         // todo: read from inventory
         public WeaponDescription[] weaponDescs;
         public SpriteRenderer spriteRenderer;
+
+        public delegate void WeaponChanged(WeaponDescription desc);
+        public event WeaponChanged OnWeaponChanged;
 
         // todo: use direct obj ref
         public StatusDescription speedUpStatus;
@@ -20,7 +24,7 @@ namespace ThisGame.Weapon {
 
         private void SetCurrWeapon(int idx) {
             if(idx != weaponIdx)
-                OnWeaponChanged(weaponDescs[idx]);
+                OnWeaponChangedInternal(weaponDescs[idx]);
             weaponIdx = idx;
             spriteRenderer.sprite = weaponDescs[idx].onHandSprite;
         }
@@ -28,11 +32,13 @@ namespace ThisGame.Weapon {
 
         // todo: make this a callback
         // todo: set FX in SO
-        private void OnWeaponChanged(WeaponDescription desc) {
+        private void OnWeaponChangedInternal(WeaponDescription desc) {
             if(desc.type == ElementType.Light)
                 playerStatus.AddStatus(speedUpStatus);
             else
                 playerStatus.RemoveStatus(speedUpStatus);
+
+            OnWeaponChanged?.Invoke(desc);
         }
 
         private void Awake() {
